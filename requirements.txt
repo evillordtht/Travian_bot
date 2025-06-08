@@ -1,0 +1,4 @@
+playwright
+customtkinter
+python-dotenv
+google-generativeai

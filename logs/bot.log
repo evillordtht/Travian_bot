@@ -1,0 +1,745 @@
+2025-06-03 12:12:37,481 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 12:12:37,481 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 12:12:37,733 - __main__ - CRITICAL - main.main:69 - Uygulama başlatılırken veya çalışırken kritik bir hata oluştu!
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/main.py", line 64, in main
+    app = TravianBotApp()
+          ^^^^^^^^^^^^^^^
+  File "/Users/evil/Desktop/travian_bot_project/gui/app_window.py", line 20, in __init__
+    self.title("Gelişmiş Travian Bot Arayüzü") [cite: 277]
+                                                ^^^^
+NameError: name 'cite' is not defined
+2025-06-03 12:12:37,761 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 12:20:06,975 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 12:20:06,975 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 12:20:07,177 - __main__ - CRITICAL - main.main:69 - Uygulama başlatılırken veya çalışırken kritik bir hata oluştu!
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/main.py", line 64, in main
+    app = TravianBotApp()
+          ^^^^^^^^^^^^^^^
+  File "/Users/evil/Desktop/travian_bot_project/gui/app_window.py", line 31, in __init__
+    self._setup_ui()
+  File "/Users/evil/Desktop/travian_bot_project/gui/app_window.py", line 71, in _setup_ui
+    log_frame = ctk.CTkFrame(left_frame) [cite: 282]
+                                          ^^^^
+NameError: name 'cite' is not defined
+2025-06-03 12:20:07,178 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 12:20:37,414 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 12:20:37,414 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 12:20:37,610 - __main__ - CRITICAL - main.main:69 - Uygulama başlatılırken veya çalışırken kritik bir hata oluştu!
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/main.py", line 64, in main
+    app = TravianBotApp()
+          ^^^^^^^^^^^^^^^
+  File "/Users/evil/Desktop/travian_bot_project/gui/app_window.py", line 31, in __init__
+    self._setup_ui()
+  File "/Users/evil/Desktop/travian_bot_project/gui/app_window.py", line 100, in _setup_ui
+    self.start_bot_button.pack(side="left", padx=10, pady=10) [cite: 280]
+                                                               ^^^^
+NameError: name 'cite' is not defined
+2025-06-03 12:20:37,611 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 12:21:06,826 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 12:21:06,826 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 12:26:31,536 - bot.travian_client - ERROR - travian_client.login:66 - Giriş sırasında genel bir hata oluştu: name 'cite' is not defined
+2025-06-03 12:28:02,050 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 12:28:02,051 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 12:29:36,833 - bot.travian_client - ERROR - travian_client.login:66 - Giriş sırasında genel bir hata oluştu: name 'cite' is not defined
+2025-06-03 14:17:08,467 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 14:17:08,468 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 14:18:25,304 - bot.travian_client - INFO - travian_client.login:39 - https://ts50.x5.europe.travian.com/dorf1.php adresine gidiliyor...
+2025-06-03 14:18:27,363 - bot.travian_client - INFO - travian_client.login:42 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 14:18:27,830 - bot.travian_client - INFO - travian_client.login:46 - Giriş butonuna tıklanıyor...
+2025-06-03 14:18:28,098 - bot.travian_client - INFO - travian_client.login:56 - Giriş sonrası yönlendirme bekleniyor (dorf1.php)...
+2025-06-03 14:18:29,319 - bot.travian_client - INFO - travian_client.login:59 - Giriş başarılı.
+2025-06-03 14:18:29,345 - bot.travian_client - INFO - travian_client.get_initial_village_data:121 - İlk köy verileri çekiliyor...
+2025-06-03 14:18:29,361 - bot.travian_client - WARNING - travian_client.get_initial_village_data:149 - JavaScript ile aktif köy ID'si alınırken hata: Page.evaluate: ReferenceError: active_did is not defined
+    at eval (eval at evaluate (:313:29), <anonymous>:1:7)
+    at UtilityScript.evaluate (<anonymous>:320:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+2025-06-03 14:18:29,361 - bot.travian_client - INFO - travian_client.navigate_to_village:105 - Köy ID unknown_id_js_error (https://ts50.x5.europe.travian.com/dorf1.php/dorf1.php?newdid=unknown_id_js_error) adresine gidiliyor.
+2025-06-03 14:18:39,831 - bot.travian_client - ERROR - travian_client.get_village_resources:299 - Kaynakları çekerken hata: invalid literal for int() with base 10: '\u202d800\u202c'
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 225, in get_village_resources
+    resources['wood'] = int(self.page.locator("#l4").inner_text().replace('.', '').replace(',', '')) [cite: 223]
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: '\u202d800\u202c'
+2025-06-03 14:18:39,832 - bot.travian_client - WARNING - travian_client.get_initial_village_data:172 - Köy unknown_id_js_error için kaynaklar çekilemedi. Varsayılan değerler kullanılacak.
+2025-06-03 14:18:40,288 - bot.travian_client - INFO - travian_client.get_village_buildings:318 - Kaynak alanı binaları dorf1.php'den çekiliyor...
+2025-06-03 14:18:40,398 - bot.travian_client - INFO - travian_client.get_village_buildings:359 - 0 kaynak alanı binası çekildi.
+2025-06-03 14:18:40,398 - bot.travian_client - INFO - travian_client.get_village_buildings:362 - Köy merkezi binaları dorf2.php'den çekiliyor...
+2025-06-03 14:18:40,758 - bot.travian_client - INFO - travian_client.get_village_buildings:396 - Toplam 0 bina köy unknown_id_js_error için çekildi.
+2025-06-03 14:18:40,762 - bot.travian_client - INFO - travian_client.get_building_queue:423 - 0 inşaat kuyruğu öğesi bulundu.
+2025-06-03 14:18:40,764 - bot.travian_client - INFO - travian_client.get_building_queue:446 - İnşaat kuyruğu çekildi: 0 öğe.
+2025-06-03 14:18:41,139 - bot.travian_client - INFO - travian_client.get_troops_in_village:553 - 0 potansiyel asker satırı bulundu köy unknown_id_js_error için.
+2025-06-03 14:18:41,141 - bot.travian_client - INFO - travian_client.get_troops_in_village:582 - Dorf1'de asker bulunamadı, Askeri Üs kontrol edilebilir (henüz uygulanmadı).
+2025-06-03 14:18:41,141 - bot.travian_client - INFO - travian_client.get_troops_in_village:585 - Köy unknown_id_js_error için 0 farklı tipte, toplam 0 asker çekildi.
+2025-06-03 14:18:41,141 - bot.travian_client - INFO - travian_client.get_initial_village_data:208 - İlk köy verileri başarıyla çekildi: Burada hiçbir şey yok! (ID: unknown_id_js_error)
+2025-06-03 14:18:57,678 - config.gemini_config - INFO - gemini_config.load_gemini_api_key:15 - Gemini API Anahtarı başarıyla yüklendi.
+2025-06-03 14:18:57,678 - bot.bot_engine - INFO - bot_engine.log_message:77 - Bot motoru başlatıldı. İlk durum güncellemesi yapılıyor...
+2025-06-03 14:18:57,689 - bot.bot_engine - INFO - bot_engine.log_message:77 - Oyun durumu güncelleniyor...
+2025-06-03 14:18:57,691 - bot.bot_engine - INFO - bot_engine.log_message:77 - Köy 'Burada hiçbir şey yok!' (ID: unknown_id_js_error) için durum çekiliyor.
+2025-06-03 14:18:57,694 - bot.travian_client - ERROR - travian_client.get_village_resources:299 - Kaynakları çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 225, in get_village_resources
+    resources['wood'] = int(self.page.locator("#l4").inner_text().replace('.', '').replace(',', '')) [cite: 223]
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 16925, in inner_text
+    self._sync(self._impl_obj.inner_text(timeout=timeout))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:18:57,695 - bot.bot_engine - WARNING - bot_engine.log_message:75 - Köy 'Burada hiçbir şey yok!' için kaynaklar güncellenemedi.
+2025-06-03 14:18:57,696 - bot.travian_client - ERROR - travian_client.get_village_buildings:399 - Binaları çekerken genel hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 314, in get_village_buildings
+    self.page.goto(f"{self.server_url}/dorf1.php?newdid={village_id or self.current_village_id}")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9024, in goto
+    self._sync(
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:18:57,697 - bot.travian_client - ERROR - travian_client.get_building_queue:449 - İnşaat kuyruğunu çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 419, in get_building_queue
+    if building_elements.count() == 0: # Alternatif seçici
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 16713, in count
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.count()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:18:57,697 - bot.travian_client - ERROR - travian_client.get_troops_in_village:588 - Askerleri çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 544, in get_troops_in_village
+    self.page.reload()
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9067, in reload
+    self._sync(self._impl_obj.reload(timeout=timeout, waitUntil=wait_until))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:18:57,698 - bot.bot_engine - INFO - bot_engine.log_message:77 - Köy 'Burada hiçbir şey yok!' durumu güncellendi: 0 bina, 0 kuyrukta, 0 asker.
+2025-06-03 14:18:57,707 - bot.travian_client - INFO - travian_client.get_hero_status:667 - Kahraman durumu çekiliyor (hero.php)...
+2025-06-03 14:18:57,708 - bot.travian_client - ERROR - travian_client.get_hero_status:707 - Kahraman durumunu çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 668, in get_hero_status
+    self.page.goto(f"{self.server_url}/hero.php")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9024, in goto
+    self._sync(
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:18:57,708 - bot.bot_engine - WARNING - bot_engine.log_message:75 - Kahraman durumu güncellenemedi.
+2025-06-03 14:18:57,709 - bot.bot_engine - INFO - bot_engine.log_message:77 - Oyun durumu güncelleme tamamlandı.
+2025-06-03 14:19:34,453 - bot.bot_engine - INFO - bot_engine.log_message:77 - Bot motoru durduruluyor...
+2025-06-03 14:19:35,587 - config.gemini_config - INFO - gemini_config.load_gemini_api_key:15 - Gemini API Anahtarı başarıyla yüklendi.
+2025-06-03 14:19:35,587 - bot.bot_engine - INFO - bot_engine.log_message:77 - Bot motoru başlatıldı. İlk durum güncellemesi yapılıyor...
+2025-06-03 14:19:35,598 - bot.bot_engine - INFO - bot_engine.log_message:77 - Oyun durumu güncelleniyor...
+2025-06-03 14:19:35,601 - bot.bot_engine - INFO - bot_engine.log_message:77 - Köy 'Burada hiçbir şey yok!' (ID: unknown_id_js_error) için durum çekiliyor.
+2025-06-03 14:19:35,604 - bot.travian_client - ERROR - travian_client.get_village_resources:299 - Kaynakları çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 225, in get_village_resources
+    resources['wood'] = int(self.page.locator("#l4").inner_text().replace('.', '').replace(',', '')) [cite: 223]
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 16925, in inner_text
+    self._sync(self._impl_obj.inner_text(timeout=timeout))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:35,605 - bot.bot_engine - WARNING - bot_engine.log_message:75 - Köy 'Burada hiçbir şey yok!' için kaynaklar güncellenemedi.
+2025-06-03 14:19:35,608 - bot.travian_client - ERROR - travian_client.get_village_buildings:399 - Binaları çekerken genel hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 314, in get_village_buildings
+    self.page.goto(f"{self.server_url}/dorf1.php?newdid={village_id or self.current_village_id}")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9024, in goto
+    self._sync(
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:35,608 - bot.travian_client - ERROR - travian_client.get_building_queue:449 - İnşaat kuyruğunu çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 419, in get_building_queue
+    if building_elements.count() == 0: # Alternatif seçici
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 16713, in count
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.count()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:35,609 - bot.travian_client - ERROR - travian_client.get_troops_in_village:588 - Askerleri çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 544, in get_troops_in_village
+    self.page.reload()
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9067, in reload
+    self._sync(self._impl_obj.reload(timeout=timeout, waitUntil=wait_until))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:35,609 - bot.bot_engine - INFO - bot_engine.log_message:77 - Köy 'Burada hiçbir şey yok!' durumu güncellendi: 0 bina, 0 kuyrukta, 0 asker.
+2025-06-03 14:19:35,612 - bot.travian_client - INFO - travian_client.get_hero_status:667 - Kahraman durumu çekiliyor (hero.php)...
+2025-06-03 14:19:35,612 - bot.travian_client - ERROR - travian_client.get_hero_status:707 - Kahraman durumunu çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 668, in get_hero_status
+    self.page.goto(f"{self.server_url}/hero.php")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9024, in goto
+    self._sync(
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:35,612 - bot.bot_engine - WARNING - bot_engine.log_message:75 - Kahraman durumu güncellenemedi.
+2025-06-03 14:19:35,614 - bot.bot_engine - INFO - bot_engine.log_message:77 - Oyun durumu güncelleme tamamlandı.
+2025-06-03 14:19:59,630 - bot.bot_engine - INFO - bot_engine.log_message:77 - Bot motoru durduruluyor...
+2025-06-03 14:19:59,636 - bot.travian_client - INFO - travian_client.close:74 - Playwright kaynakları kapatılıyor...
+2025-06-03 14:19:59,639 - bot.travian_client - WARNING - travian_client.close:79 - Sayfa kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:59,639 - bot.travian_client - WARNING - travian_client.close:84 - Tarayıcı context'i kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:59,640 - bot.travian_client - WARNING - travian_client.close:89 - Tarayıcı kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:59,640 - bot.travian_client - WARNING - travian_client.close:94 - Playwright context'i durdurulurken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:19:59,640 - bot.travian_client - INFO - travian_client.close:95 - Playwright kapatıldı.
+2025-06-03 14:19:59,645 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 14:34:35,653 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 14:34:35,653 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 14:35:22,905 - bot.travian_client - INFO - travian_client.login:87 - https://ts50.x5.europe.travian.com/dorf1.php adresine gidiliyor...
+2025-06-03 14:35:24,288 - bot.travian_client - INFO - travian_client.login:90 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 14:35:24,626 - bot.travian_client - INFO - travian_client.login:94 - Giriş butonuna tıklanıyor...
+2025-06-03 14:35:24,630 - bot.travian_client - INFO - travian_client.login:102 - 'button#s1' bulunamadı, alternatif 'button[type="submit"]' denenecek.
+2025-06-03 14:35:24,821 - bot.travian_client - INFO - travian_client.login:105 - Giriş sonrası yönlendirme bekleniyor (dorf1.php)...
+2025-06-03 14:35:25,720 - bot.travian_client - INFO - travian_client.login:107 - Giriş başarılı.
+2025-06-03 14:35:25,757 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:151 - Aktif köy ID'si alınamadı. `current_village_id` None olarak kaldı.
+2025-06-03 14:35:25,780 - bot.travian_client - INFO - travian_client.get_initial_village_data:208 - İlk köy verileri çekiliyor...
+2025-06-03 14:35:25,784 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:151 - Aktif köy ID'si alınamadı. `current_village_id` None olarak kaldı.
+2025-06-03 14:35:25,784 - bot.travian_client - ERROR - travian_client.get_initial_village_data:212 - Aktif köy ID'si belirlenemedi. İlk köy verileri çekilemiyor.
+2025-06-03 14:36:19,596 - bot.travian_client - INFO - travian_client.close:161 - Playwright kaynakları kapatılıyor...
+2025-06-03 14:36:19,598 - bot.travian_client - WARNING - travian_client.close:165 - Sayfa kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:36:19,598 - bot.travian_client - WARNING - travian_client.close:168 - Tarayıcı context'i kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:36:19,598 - bot.travian_client - WARNING - travian_client.close:171 - Tarayıcı kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:36:19,598 - bot.travian_client - WARNING - travian_client.close:174 - Playwright context'i durdurulurken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 14:36:19,598 - bot.travian_client - INFO - travian_client.close:175 - Playwright kapatıldı.
+2025-06-03 14:36:19,603 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 20:41:19,756 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 20:41:19,756 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 20:42:47,238 - bot.travian_client - INFO - travian_client.login:87 - https://ts50.x5.europe.travian.com/dorf1.php adresine gidiliyor...
+2025-06-03 20:42:48,449 - bot.travian_client - INFO - travian_client.login:90 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 20:42:48,786 - bot.travian_client - INFO - travian_client.login:94 - Giriş butonuna tıklanıyor...
+2025-06-03 20:42:48,790 - bot.travian_client - INFO - travian_client.login:102 - 'button#s1' bulunamadı, alternatif 'button[type="submit"]' denenecek.
+2025-06-03 20:42:48,975 - bot.travian_client - INFO - travian_client.login:105 - Giriş sonrası yönlendirme bekleniyor (dorf1.php)...
+2025-06-03 20:42:49,741 - bot.travian_client - INFO - travian_client.login:107 - Giriş başarılı.
+2025-06-03 20:42:49,751 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:151 - Aktif köy ID'si alınamadı. `current_village_id` None olarak kaldı.
+2025-06-03 20:42:49,765 - bot.travian_client - INFO - travian_client.get_initial_village_data:208 - İlk köy verileri çekiliyor...
+2025-06-03 20:42:49,786 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:151 - Aktif köy ID'si alınamadı. `current_village_id` None olarak kaldı.
+2025-06-03 20:42:49,786 - bot.travian_client - ERROR - travian_client.get_initial_village_data:212 - Aktif köy ID'si belirlenemedi. İlk köy verileri çekilemiyor.
+2025-06-03 20:43:33,309 - bot.travian_client - INFO - travian_client.close:161 - Playwright kaynakları kapatılıyor...
+2025-06-03 20:43:33,317 - bot.travian_client - WARNING - travian_client.close:165 - Sayfa kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:43:33,318 - bot.travian_client - WARNING - travian_client.close:168 - Tarayıcı context'i kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:43:33,318 - bot.travian_client - WARNING - travian_client.close:171 - Tarayıcı kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:43:33,320 - bot.travian_client - WARNING - travian_client.close:174 - Playwright context'i durdurulurken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:43:33,320 - bot.travian_client - INFO - travian_client.close:175 - Playwright kapatıldı.
+2025-06-03 20:43:33,335 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 20:53:47,757 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 20:53:47,758 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 20:54:32,279 - bot.travian_client - INFO - travian_client.login:85 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 20:54:33,629 - bot.travian_client - INFO - travian_client.login:88 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 20:54:34,063 - bot.travian_client - INFO - travian_client.login:92 - Giriş butonuna tıklanıyor...
+2025-06-03 20:54:34,068 - bot.travian_client - INFO - travian_client.login:99 - 'button#s1' bulunamadı, alternatif 'button[type="submit"]' denenecek.
+2025-06-03 20:54:34,313 - bot.travian_client - INFO - travian_client.login:106 - Giriş sonrası yönlendirme bekleniyor (dorf1.php)...
+2025-06-03 20:54:35,079 - bot.travian_client - INFO - travian_client.login:108 - Giriş başarılı.
+2025-06-03 20:54:35,112 - bot.travian_client - INFO - travian_client._update_current_village_id_after_login:131 - Aktif köy ID'si 'data-did' attribute'undan alındı: 34808
+2025-06-03 20:54:35,125 - bot.travian_client - INFO - travian_client.get_initial_village_data:285 - İlk köy verileri çekiliyor...
+2025-06-03 20:54:35,150 - bot.travian_client - INFO - travian_client.navigate_to_village:183 - Köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) adresine gidiliyor.
+2025-06-03 20:54:35,645 - bot.travian_client - WARNING - travian_client.get_village_resources:251 - JavaScript kaynak nesnesi ayrıştırılamadı, HTML elementlerine fallback yapılıyor: Locator.inner_text: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': 'script:contains("var resources = {")' is not a valid selector.
+    at query (<anonymous>:4927:41)
+    at <anonymous>:4937:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:4714:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:4924:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:4804:19)
+    at <anonymous>:4752:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:4714:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:4745:19)
+    at Object.query (<anonymous>:4959:44)
+    at <anonymous>:4917:21
+Call log:
+  - waiting for locator("script:contains('var resources = {')")
+
+2025-06-03 20:54:35,695 - bot.travian_client - INFO - travian_client.get_village_resources:275 - Son kaynaklar (köy 34808): {'wood': 438, 'clay': 301, 'iron': 380, 'crop': 489, 'warehouse_capacity': 800, 'granary_capacity': 800, 'wood_prod': 340, 'clay_prod': 310, 'iron_prod': 240, 'crop_prod_net': 306, 'free_crop': 124, 'population': 14}
+2025-06-03 20:54:35,695 - bot.travian_client - INFO - travian_client.get_village_buildings:348 - Kaynak alanı binaları dorf1.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 20:54:35,697 - bot.travian_client - INFO - travian_client.get_village_buildings:359 - 18 kaynak alanı elementi bulundu.
+2025-06-03 20:54:35,839 - bot.travian_client - INFO - travian_client.get_village_buildings:406 - 0 kaynak alanı binası çekildi.
+2025-06-03 20:54:35,839 - bot.travian_client - INFO - travian_client.get_village_buildings:410 - Köy merkezi binaları dorf2.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 20:54:36,427 - bot.travian_client - INFO - travian_client.get_village_buildings:415 - dorf2'de 22 potansiyel bina slotu bulundu.
+2025-06-03 20:54:36,483 - bot.travian_client - INFO - travian_client.get_village_buildings:451 - Toplam 0 köy merkezi binası çekildi. Genel toplam: 0
+2025-06-03 20:54:36,483 - bot.travian_client - INFO - travian_client.navigate_to_village:187 - Zaten köy ID 34808 (https://ts50.x5.europe.travian.com/dorf2.php?newdid=34808) sayfasındayız veya `newdid` eşleşiyor.
+2025-06-03 20:54:36,483 - bot.travian_client - INFO - travian_client.navigate_to_village:190 - Sayfa dorf1.php değil, https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808 adresine gidiliyor.
+2025-06-03 20:54:36,982 - bot.travian_client - INFO - travian_client.get_building_queue:476 - 2 inşaat kuyruğu öğesi bulundu (köy 34808).
+2025-06-03 20:54:37,000 - bot.travian_client - INFO - travian_client.get_building_queue:502 - İnşaat kuyruğu köy 34808 için çekildi: 2 öğe.
+2025-06-03 20:54:37,520 - bot.travian_client - INFO - travian_client.get_troops_in_village:526 - 1 potansiyel asker satırı bulundu (köy 34808).
+2025-06-03 20:54:37,526 - bot.travian_client - INFO - travian_client.get_troops_in_village:560 - Köy 34808 için 0 farklı tipte, toplam 0 asker çekildi.
+2025-06-03 20:54:37,527 - bot.travian_client - INFO - travian_client.get_initial_village_data:333 - İlk köy verileri başarıyla çekildi: evillord Köyü (ID: 34808)
+2025-06-03 20:54:50,052 - config.gemini_config - INFO - gemini_config.load_gemini_api_key:15 - Gemini API Anahtarı başarıyla yüklendi.
+2025-06-03 20:54:50,052 - bot.bot_engine - INFO - bot_engine.log_message:77 - Bot motoru başlatıldı. İlk durum güncellemesi yapılıyor...
+2025-06-03 20:54:50,060 - bot.bot_engine - INFO - bot_engine.log_message:77 - Oyun durumu güncelleniyor...
+2025-06-03 20:54:50,061 - bot.bot_engine - INFO - bot_engine.log_message:77 - Köy 'evillord Köyü' (ID: 34808) için durum çekiliyor.
+2025-06-03 20:54:50,064 - bot.travian_client - ERROR - travian_client.get_village_resources:279 - Kaynakları köy 34808 için çekerken genel hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 210, in get_village_resources
+    self.page.reload(wait_until="domcontentloaded")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9067, in reload
+    self._sync(self._impl_obj.reload(timeout=timeout, waitUntil=wait_until))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:54:50,066 - bot.bot_engine - WARNING - bot_engine.log_message:75 - Köy 'evillord Köyü' için kaynaklar güncellenemedi.
+2025-06-03 20:54:50,067 - bot.travian_client - INFO - travian_client.get_village_buildings:348 - Kaynak alanı binaları dorf1.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 20:54:50,068 - bot.travian_client - ERROR - travian_client.get_village_buildings:454 - Binaları köy 34808 için çekerken genel hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 359, in get_village_buildings
+    logger.info(f"{resource_field_elements.count()} kaynak alanı elementi bulundu.")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 16713, in count
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.count()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:54:50,070 - bot.travian_client - ERROR - travian_client.get_building_queue:505 - İnşaat kuyruğunu köy 34808 için çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 471, in get_building_queue
+    self.page.reload(wait_until="domcontentloaded")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9067, in reload
+    self._sync(self._impl_obj.reload(timeout=timeout, waitUntil=wait_until))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:54:50,070 - bot.travian_client - ERROR - travian_client.get_troops_in_village:563 - Askerleri köy 34808 için çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 522, in get_troops_in_village
+    self.page.reload(wait_until="domcontentloaded")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9067, in reload
+    self._sync(self._impl_obj.reload(timeout=timeout, waitUntil=wait_until))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:54:50,070 - bot.bot_engine - INFO - bot_engine.log_message:77 - Köy 'evillord Köyü' durumu güncellendi: 0 bina, 0 kuyrukta, 0 asker.
+2025-06-03 20:54:50,071 - bot.travian_client - WARNING - travian_client.get_hero_status:604 - get_hero_status fonksiyonu hero.php HTML'ine göre revize edilmelidir.
+2025-06-03 20:54:50,071 - bot.travian_client - INFO - travian_client.get_hero_status:610 - Kahraman durumu çekiliyor (hero.php)...
+2025-06-03 20:54:50,072 - bot.travian_client - ERROR - travian_client.get_hero_status:646 - Kahraman durumunu çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 611, in get_hero_status
+    self.page.goto(f"{self.server_url.strip('/')}/hero", wait_until="domcontentloaded") # /hero genel bir yol
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9024, in goto
+    self._sync(
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:54:50,072 - bot.bot_engine - WARNING - bot_engine.log_message:75 - Kahraman durumu güncellenemedi.
+2025-06-03 20:54:50,073 - bot.bot_engine - INFO - bot_engine.log_message:77 - Oyun durumu güncelleme tamamlandı.
+2025-06-03 20:55:08,299 - bot.bot_engine - INFO - bot_engine.log_message:77 - YZ'den yeni yağma listesi önerileri alınması planlanıyor...
+2025-06-03 20:55:08,310 - bot.bot_engine - INFO - bot_engine.log_message:77 - YZ için 'evillord Köyü' köyü etrafındaki bilgiler çekilecek.
+2025-06-03 20:55:08,322 - bot.travian_client - WARNING - travian_client.get_nearby_village_info:704 - `get_nearby_village_info` fonksiyonu şu anda SADECE SİMÜLE EDİLMİŞ veri döndürüyor.
+2025-06-03 20:55:55,957 - bot.bot_engine - INFO - bot_engine.log_message:77 - Bot motoru durduruluyor...
+2025-06-03 20:55:55,969 - bot.travian_client - INFO - travian_client.close:155 - Playwright kaynakları kapatılıyor...
+2025-06-03 20:55:55,977 - bot.travian_client - WARNING - travian_client.close:158 - Sayfa kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:55:55,977 - bot.travian_client - WARNING - travian_client.close:161 - Tarayıcı context'i kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:55:55,978 - bot.travian_client - WARNING - travian_client.close:164 - Tarayıcı kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:55:55,979 - bot.travian_client - WARNING - travian_client.close:167 - Playwright context'i durdurulurken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 20:55:55,979 - bot.travian_client - INFO - travian_client.close:168 - Playwright kapatıldı.
+2025-06-03 20:55:56,000 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 21:24:00,506 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 21:24:00,506 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 21:25:01,498 - bot.travian_client - INFO - travian_client.login:85 - https://ts50.x5.europe.travian.com/dorf1.php adresine gidiliyor...
+2025-06-03 21:25:02,769 - bot.travian_client - INFO - travian_client.login:88 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 21:25:03,207 - bot.travian_client - INFO - travian_client.login:92 - Giriş butonuna tıklanıyor...
+2025-06-03 21:25:03,213 - bot.travian_client - INFO - travian_client.login:99 - 'button#s1' bulunamadı, alternatif 'button[type="submit"]' denenecek.
+2025-06-03 21:25:03,468 - bot.travian_client - INFO - travian_client.login:106 - Giriş sonrası yönlendirme bekleniyor (dorf1.php)...
+2025-06-03 21:25:04,319 - bot.travian_client - INFO - travian_client.login:108 - Giriş başarılı.
+2025-06-03 21:25:04,352 - bot.travian_client - INFO - travian_client._update_current_village_id_after_login:131 - Aktif köy ID'si 'data-did' attribute'undan alındı: 34808
+2025-06-03 21:25:04,366 - bot.travian_client - INFO - travian_client.get_initial_village_data:285 - İlk köy verileri çekiliyor...
+2025-06-03 21:25:04,384 - bot.travian_client - INFO - travian_client.navigate_to_village:183 - Köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php/dorf1.php?newdid=34808) adresine gidiliyor.
+2025-06-03 21:25:04,959 - bot.travian_client - WARNING - travian_client.get_village_resources:251 - JavaScript kaynak nesnesi ayrıştırılamadı, HTML elementlerine fallback yapılıyor: Locator.inner_text: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': 'script:contains("var resources = {")' is not a valid selector.
+    at query (<anonymous>:4927:41)
+    at <anonymous>:4937:7
+    at SelectorEvaluatorImpl._cached (<anonymous>:4714:20)
+    at SelectorEvaluatorImpl._queryCSS (<anonymous>:4924:17)
+    at SelectorEvaluatorImpl._querySimple (<anonymous>:4804:19)
+    at <anonymous>:4752:29
+    at SelectorEvaluatorImpl._cached (<anonymous>:4714:20)
+    at SelectorEvaluatorImpl.query (<anonymous>:4745:19)
+    at Object.query (<anonymous>:4959:44)
+    at <anonymous>:4917:21
+Call log:
+  - waiting for locator("script:contains('var resources = {')")
+
+2025-06-03 21:25:04,973 - bot.travian_client - INFO - travian_client.get_village_resources:275 - Son kaynaklar (köy 34808): {'wood': 0, 'clay': 0, 'iron': 0, 'crop': 0, 'warehouse_capacity': 800, 'granary_capacity': 800, 'wood_prod': 0, 'clay_prod': 0, 'iron_prod': 0, 'crop_prod_net': 0, 'free_crop': 0, 'population': 0}
+2025-06-03 21:25:04,973 - bot.travian_client - INFO - travian_client.get_village_buildings:348 - Kaynak alanı binaları dorf1.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:25:04,975 - bot.travian_client - INFO - travian_client.get_village_buildings:359 - 0 kaynak alanı elementi bulundu.
+2025-06-03 21:25:04,976 - bot.travian_client - INFO - travian_client.get_village_buildings:406 - 0 kaynak alanı binası çekildi.
+2025-06-03 21:25:04,976 - bot.travian_client - INFO - travian_client.get_village_buildings:410 - Köy merkezi binaları dorf2.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:25:05,402 - bot.travian_client - INFO - travian_client.get_village_buildings:415 - dorf2'de 0 potansiyel bina slotu bulundu.
+2025-06-03 21:25:05,404 - bot.travian_client - INFO - travian_client.get_village_buildings:451 - Toplam 0 köy merkezi binası çekildi. Genel toplam: 0
+2025-06-03 21:25:05,404 - bot.travian_client - INFO - travian_client.navigate_to_village:187 - Zaten köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php/dorf2.php?newdid=34808) sayfasındayız veya `newdid` eşleşiyor.
+2025-06-03 21:25:05,404 - bot.travian_client - INFO - travian_client.navigate_to_village:190 - Sayfa dorf1.php değil, https://ts50.x5.europe.travian.com/dorf1.php/dorf1.php?newdid=34808 adresine gidiliyor.
+2025-06-03 21:25:05,826 - bot.travian_client - INFO - travian_client.get_building_queue:476 - 0 inşaat kuyruğu öğesi bulundu (köy 34808).
+2025-06-03 21:25:05,828 - bot.travian_client - INFO - travian_client.get_building_queue:502 - İnşaat kuyruğu köy 34808 için çekildi: 0 öğe.
+2025-06-03 21:25:06,254 - bot.travian_client - INFO - travian_client.get_troops_in_village:526 - 0 potansiyel asker satırı bulundu (köy 34808).
+2025-06-03 21:25:06,259 - bot.travian_client - INFO - travian_client.get_troops_in_village:560 - Köy 34808 için 0 farklı tipte, toplam 0 asker çekildi.
+2025-06-03 21:25:06,259 - bot.travian_client - INFO - travian_client.get_initial_village_data:333 - İlk köy verileri başarıyla çekildi: evillord Köyü (ID: 34808)
+2025-06-03 21:25:20,660 - config.gemini_config - INFO - gemini_config.load_gemini_api_key:15 - Gemini API Anahtarı başarıyla yüklendi.
+2025-06-03 21:25:20,662 - bot.bot_engine - INFO - bot_engine.log_message:77 - Bot motoru başlatıldı. İlk durum güncellemesi yapılıyor...
+2025-06-03 21:25:20,662 - bot.bot_engine - INFO - bot_engine.log_message:77 - Oyun durumu güncelleniyor...
+2025-06-03 21:25:20,664 - bot.bot_engine - INFO - bot_engine.log_message:77 - Köy 'evillord Köyü' (ID: 34808) için durum çekiliyor.
+2025-06-03 21:25:20,671 - bot.travian_client - ERROR - travian_client.get_village_resources:279 - Kaynakları köy 34808 için çekerken genel hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 210, in get_village_resources
+    self.page.reload(wait_until="domcontentloaded")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9067, in reload
+    self._sync(self._impl_obj.reload(timeout=timeout, waitUntil=wait_until))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:20,674 - bot.bot_engine - WARNING - bot_engine.log_message:75 - Köy 'evillord Köyü' için kaynaklar güncellenemedi.
+2025-06-03 21:25:20,683 - bot.travian_client - INFO - travian_client.get_village_buildings:348 - Kaynak alanı binaları dorf1.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:25:20,683 - bot.travian_client - ERROR - travian_client.get_village_buildings:454 - Binaları köy 34808 için çekerken genel hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 359, in get_village_buildings
+    logger.info(f"{resource_field_elements.count()} kaynak alanı elementi bulundu.")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 16713, in count
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.count()))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:20,685 - bot.travian_client - ERROR - travian_client.get_building_queue:505 - İnşaat kuyruğunu köy 34808 için çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 471, in get_building_queue
+    self.page.reload(wait_until="domcontentloaded")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9067, in reload
+    self._sync(self._impl_obj.reload(timeout=timeout, waitUntil=wait_until))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:20,685 - bot.travian_client - ERROR - travian_client.get_troops_in_village:563 - Askerleri köy 34808 için çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 522, in get_troops_in_village
+    self.page.reload(wait_until="domcontentloaded")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9067, in reload
+    self._sync(self._impl_obj.reload(timeout=timeout, waitUntil=wait_until))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:20,685 - bot.bot_engine - INFO - bot_engine.log_message:77 - Köy 'evillord Köyü' durumu güncellendi: 0 bina, 0 kuyrukta, 0 asker.
+2025-06-03 21:25:20,694 - bot.travian_client - WARNING - travian_client.get_hero_status:604 - get_hero_status fonksiyonu hero.php HTML'ine göre revize edilmelidir.
+2025-06-03 21:25:20,694 - bot.travian_client - INFO - travian_client.get_hero_status:610 - Kahraman durumu çekiliyor (hero.php)...
+2025-06-03 21:25:20,694 - bot.travian_client - ERROR - travian_client.get_hero_status:646 - Kahraman durumunu çekerken hata: cannot switch to a different thread (which happens to have exited)
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 611, in get_hero_status
+    self.page.goto(f"{self.server_url.strip('/')}/hero", wait_until="domcontentloaded") # /hero genel bir yol
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9024, in goto
+    self._sync(
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+greenlet.error: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:20,694 - bot.bot_engine - WARNING - bot_engine.log_message:75 - Kahraman durumu güncellenemedi.
+2025-06-03 21:25:20,695 - bot.bot_engine - INFO - bot_engine.log_message:77 - Oyun durumu güncelleme tamamlandı.
+2025-06-03 21:25:29,597 - bot.bot_engine - INFO - bot_engine.log_message:77 - Bot motoru durduruluyor...
+2025-06-03 21:25:29,608 - bot.travian_client - INFO - travian_client.close:155 - Playwright kaynakları kapatılıyor...
+2025-06-03 21:25:29,612 - bot.travian_client - WARNING - travian_client.close:158 - Sayfa kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:29,613 - bot.travian_client - WARNING - travian_client.close:161 - Tarayıcı context'i kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:29,613 - bot.travian_client - WARNING - travian_client.close:164 - Tarayıcı kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:29,614 - bot.travian_client - WARNING - travian_client.close:167 - Playwright context'i durdurulurken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:25:29,614 - bot.travian_client - INFO - travian_client.close:168 - Playwright kapatıldı.
+2025-06-03 21:25:29,623 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 21:48:58,530 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 21:48:58,531 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 21:49:57,252 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 21:49:57,572 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x127f61610>
+2025-06-03 21:49:58,754 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/dorf1.php/ adresine gidiliyor...
+2025-06-03 21:49:59,909 - bot.travian_client - INFO - travian_client.login:103 - Giriş yapılmış gibi görünüyor (dorf1.php URL'de).
+2025-06-03 21:49:59,909 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:181 - Sayfa yok veya aktif oturum yok, köy ID'si güncellenemiyor.
+2025-06-03 21:49:59,909 - bot.travian_client - WARNING - travian_client.login:110 - dorf1.php'de ama köy ID alınamadı, normal giriş denenecek.
+2025-06-03 21:49:59,909 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 21:49:59,925 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 21:49:59,925 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 21:50:00,036 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x127f61610>
+2025-06-03 21:50:00,040 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 21:50:00,040 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 21:50:03,967 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 21:50:04,153 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x1281ee750>
+2025-06-03 21:50:04,725 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/dorf1.php/ adresine gidiliyor...
+2025-06-03 21:50:05,918 - bot.travian_client - INFO - travian_client.login:103 - Giriş yapılmış gibi görünüyor (dorf1.php URL'de).
+2025-06-03 21:50:05,918 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:181 - Sayfa yok veya aktif oturum yok, köy ID'si güncellenemiyor.
+2025-06-03 21:50:05,919 - bot.travian_client - WARNING - travian_client.login:110 - dorf1.php'de ama köy ID alınamadı, normal giriş denenecek.
+2025-06-03 21:50:05,919 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 21:50:05,935 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 21:50:05,935 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 21:50:06,026 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x1281ee750>
+2025-06-03 21:50:06,028 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 21:50:06,028 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 21:50:13,452 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 21:50:13,626 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x11b7905c0>
+2025-06-03 21:50:14,191 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/dorf1.php/ adresine gidiliyor...
+2025-06-03 21:50:15,608 - bot.travian_client - INFO - travian_client.login:103 - Giriş yapılmış gibi görünüyor (dorf1.php URL'de).
+2025-06-03 21:50:15,608 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:181 - Sayfa yok veya aktif oturum yok, köy ID'si güncellenemiyor.
+2025-06-03 21:50:15,608 - bot.travian_client - WARNING - travian_client.login:110 - dorf1.php'de ama köy ID alınamadı, normal giriş denenecek.
+2025-06-03 21:50:15,608 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 21:50:15,622 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 21:50:15,623 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 21:50:15,715 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x11b7905c0>
+2025-06-03 21:50:15,717 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 21:50:15,718 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 21:50:19,956 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 21:50:20,137 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x1282ae2d0>
+2025-06-03 21:50:20,710 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 21:50:21,993 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 21:50:22,438 - bot.travian_client - INFO - travian_client.login:127 - Giriş butonuna tıklanıyor...
+2025-06-03 21:50:22,683 - bot.travian_client - INFO - travian_client.login:147 - Giriş sonrası yönlendirme bekleniyor (dorf1.php)...
+2025-06-03 21:50:23,464 - bot.travian_client - INFO - travian_client.login:150 - Giriş başarılı.
+2025-06-03 21:50:23,464 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:181 - Sayfa yok veya aktif oturum yok, köy ID'si güncellenemiyor.
+2025-06-03 21:50:23,490 - bot.travian_client - INFO - travian_client.get_initial_village_data:397 - İlk köy verileri çekiliyor...
+2025-06-03 21:50:23,490 - bot.travian_client - INFO - travian_client.get_initial_village_data:399 - Mevcut köy ID'si yok, güncellenmeye çalışılıyor...
+2025-06-03 21:50:23,490 - bot.travian_client - INFO - travian_client.navigate_to_village:253 - Köy ID 0 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=0) adresine gidiliyor.
+2025-06-03 21:50:24,030 - bot.travian_client - INFO - travian_client._update_current_village_id_after_login:195 - Aktif köy ID'si 'data-did' attribute'undan alındı: 34808
+2025-06-03 21:50:24,031 - bot.travian_client - INFO - travian_client.navigate_to_village:253 - Köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) adresine gidiliyor.
+2025-06-03 21:50:24,556 - bot.travian_client - INFO - travian_client.get_village_resources:281 - Köy 34808 için dorf1.php sayfası yenileniyor...
+2025-06-03 21:50:25,144 - bot.travian_client - WARNING - travian_client.get_village_resources:352 - JavaScript kaynak nesnesi ayrıştırılamadı (Expecting ',' delimiter: line 2 column 74 (char 75)), HTML elementlerine fallback yapılıyor.
+2025-06-03 21:50:25,193 - bot.travian_client - INFO - travian_client.get_village_resources:386 - Son kaynaklar (köy 34808): {'wood': 441, 'clay': 291, 'iron': 198, 'crop': 516, 'warehouse_capacity': 800, 'granary_capacity': 800, 'wood_prod': 590, 'clay_prod': 530, 'iron_prod': 420, 'crop_prod': 497, 'free_crop': 0, 'population': 23}
+2025-06-03 21:50:25,193 - bot.travian_client - INFO - travian_client.get_village_buildings:479 - Kaynak alanı binaları dorf1.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:50:25,193 - bot.travian_client - INFO - travian_client.navigate_to_village:257 - Zaten köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) dorf1.php sayfasındayız.
+2025-06-03 21:50:25,195 - bot.travian_client - INFO - travian_client.get_village_buildings:488 - 18 kaynak alanı elementi bulundu (Selektör: div#resourceFieldContainer a.resourceField[data-aid]).
+2025-06-03 21:50:25,313 - bot.travian_client - INFO - travian_client.get_village_buildings:541 - 18 kaynak alanı binası çekildi.
+2025-06-03 21:50:25,313 - bot.travian_client - INFO - travian_client.get_village_buildings:545 - Köy merkezi binaları dorf2.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:50:25,804 - bot.travian_client - INFO - travian_client.get_village_buildings:552 - dorf2'de 22 potansiyel bina slotu/alanı bulundu.
+2025-06-03 21:50:25,875 - bot.travian_client - INFO - travian_client.get_village_buildings:611 - Toplam 2 köy merkezi binası çekildi. Genel toplam: 20
+2025-06-03 21:50:25,875 - bot.travian_client - INFO - travian_client.navigate_to_village:253 - Köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) adresine gidiliyor.
+2025-06-03 21:50:26,893 - bot.travian_client - INFO - travian_client.get_building_queue:637 - 2 inşaat kuyruğu öğesi bulundu (köy 34808).
+2025-06-03 21:50:26,913 - bot.travian_client - INFO - travian_client.get_building_queue:665 - İnşaat kuyruğu köy 34808 için çekildi: 2 öğe.
+2025-06-03 21:50:26,914 - bot.travian_client - INFO - travian_client.navigate_to_village:257 - Zaten köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) dorf1.php sayfasındayız.
+2025-06-03 21:50:27,473 - bot.travian_client - INFO - travian_client.get_troops_in_village:691 - 0 potansiyel asker satırı bulundu (köy 34808).
+2025-06-03 21:50:27,474 - bot.travian_client - INFO - travian_client.get_troops_in_village:694 - Köyde 34808 asker tablosu bulunamadı veya boş.
+2025-06-03 21:50:27,474 - bot.travian_client - INFO - travian_client.get_initial_village_data:463 - İlk köy verileri başarıyla çekildi: evillord Köyü (ID: 34808)
+2025-06-03 21:51:03,159 - config.gemini_config - INFO - gemini_config.load_gemini_api_key:15 - Gemini API Anahtarı başarıyla yüklendi.
+2025-06-03 21:51:03,160 - bot.bot_engine - INFO - bot_engine.log_message:70 - Bot motoru çalıştırılıyor...
+2025-06-03 21:51:03,172 - bot.travian_client - INFO - travian_client.login:79 - Zaten aktif bir oturum var. Önce kapatılıyor...
+2025-06-03 21:51:03,172 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 21:51:03,173 - bot.travian_client - WARNING - travian_client.close:223 - Sayfa kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:51:03,174 - bot.travian_client - WARNING - travian_client.close:226 - Tarayıcı context'i kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:51:03,174 - bot.travian_client - WARNING - travian_client.close:229 - Tarayıcı kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:51:03,174 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x1282ae2d0>
+2025-06-03 21:51:03,174 - bot.travian_client - WARNING - travian_client.close:235 - Playwright context'i durdurulurken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:51:03,174 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 21:51:03,174 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 21:51:03,345 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x128360ef0>
+2025-06-03 21:51:04,844 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 21:51:06,042 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 21:51:06,473 - bot.travian_client - INFO - travian_client.login:127 - Giriş butonuna tıklanıyor...
+2025-06-03 21:51:07,378 - bot.travian_client - INFO - travian_client.login:147 - Giriş sonrası yönlendirme bekleniyor (dorf1.php)...
+2025-06-03 21:51:08,130 - bot.travian_client - INFO - travian_client.login:150 - Giriş başarılı.
+2025-06-03 21:51:08,130 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:181 - Sayfa yok veya aktif oturum yok, köy ID'si güncellenemiyor.
+2025-06-03 21:51:08,130 - bot.bot_engine - INFO - bot_engine.log_message:70 - TravianClient başarıyla oturum açtı. İlk durum güncellemesi yapılıyor...
+2025-06-03 21:51:08,142 - bot.bot_engine - INFO - bot_engine.log_message:70 - Oyun durumu güncelleniyor...
+2025-06-03 21:51:08,156 - bot.bot_engine - INFO - bot_engine.log_message:70 - Köy 'evillord Köyü' (ID: 34808) için durum çekiliyor.
+2025-06-03 21:51:08,159 - bot.travian_client - INFO - travian_client.navigate_to_village:253 - Köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) adresine gidiliyor.
+2025-06-03 21:51:10,541 - bot.travian_client - WARNING - travian_client.get_village_resources:352 - JavaScript kaynak nesnesi ayrıştırılamadı (Expecting ',' delimiter: line 2 column 74 (char 75)), HTML elementlerine fallback yapılıyor.
+2025-06-03 21:51:10,590 - bot.travian_client - INFO - travian_client.get_village_resources:386 - Son kaynaklar (köy 34808): {'wood': 448, 'clay': 297, 'iron': 203, 'crop': 522, 'warehouse_capacity': 800, 'granary_capacity': 800, 'wood_prod': 590, 'clay_prod': 530, 'iron_prod': 420, 'crop_prod': 497, 'free_crop': 0, 'population': 23}
+2025-06-03 21:51:10,590 - bot.travian_client - INFO - travian_client.get_village_buildings:479 - Kaynak alanı binaları dorf1.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:51:10,590 - bot.travian_client - INFO - travian_client.navigate_to_village:257 - Zaten köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) dorf1.php sayfasındayız.
+2025-06-03 21:51:10,592 - bot.travian_client - INFO - travian_client.get_village_buildings:488 - 18 kaynak alanı elementi bulundu (Selektör: div#resourceFieldContainer a.resourceField[data-aid]).
+2025-06-03 21:51:10,699 - bot.travian_client - INFO - travian_client.get_village_buildings:541 - 18 kaynak alanı binası çekildi.
+2025-06-03 21:51:10,699 - bot.travian_client - INFO - travian_client.get_village_buildings:545 - Köy merkezi binaları dorf2.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:51:11,309 - bot.travian_client - INFO - travian_client.get_village_buildings:552 - dorf2'de 22 potansiyel bina slotu/alanı bulundu.
+2025-06-03 21:51:11,378 - bot.travian_client - INFO - travian_client.get_village_buildings:611 - Toplam 2 köy merkezi binası çekildi. Genel toplam: 20
+2025-06-03 21:51:11,378 - bot.travian_client - INFO - travian_client.navigate_to_village:253 - Köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) adresine gidiliyor.
+2025-06-03 21:51:12,497 - bot.travian_client - INFO - travian_client.get_building_queue:637 - 2 inşaat kuyruğu öğesi bulundu (köy 34808).
+2025-06-03 21:51:12,518 - bot.travian_client - INFO - travian_client.get_building_queue:665 - İnşaat kuyruğu köy 34808 için çekildi: 2 öğe.
+2025-06-03 21:51:12,518 - bot.travian_client - INFO - travian_client.navigate_to_village:257 - Zaten köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) dorf1.php sayfasındayız.
+2025-06-03 21:51:13,009 - bot.travian_client - INFO - travian_client.get_troops_in_village:691 - 0 potansiyel asker satırı bulundu (köy 34808).
+2025-06-03 21:51:13,009 - bot.travian_client - INFO - travian_client.get_troops_in_village:694 - Köyde 34808 asker tablosu bulunamadı veya boş.
+2025-06-03 21:51:13,009 - bot.bot_engine - INFO - bot_engine.log_message:70 - Köy 'evillord Köyü' durumu güncellendi: 20 bina, 2 kuyrukta, 0 asker.
+2025-06-03 21:51:13,025 - bot.travian_client - INFO - travian_client.get_hero_status:828 - Kahraman durumu çekiliyor (hero.php)...
+2025-06-03 21:51:13,528 - bot.travian_client - INFO - travian_client.get_hero_status:879 - Kahraman durumu: Sağlık=0%, Deneyim=0%, Durum='Bilinmiyor', Macera Mevcut=False
+2025-06-03 21:51:13,528 - bot.bot_engine - INFO - bot_engine.log_message:70 - Kahraman durumu güncellendi: Sağlık=0%, Macera=False
+2025-06-03 21:51:13,540 - bot.bot_engine - INFO - bot_engine.log_message:70 - Oyun durumu güncelleme tamamlandı.
+2025-06-03 21:51:21,972 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'den yeni yağma listesi önerileri alınması planlanıyor...
+2025-06-03 21:51:21,984 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ için 'evillord Köyü' köyü etrafındaki bilgiler çekilecek.
+2025-06-03 21:51:21,987 - bot.travian_client - WARNING - travian_client.get_nearby_village_info:1003 - `get_nearby_village_info` köy 34808 (yarıçap: 7) için SİMÜLE EDİLMİŞ veri döndürüyor. Gerçek implementasyon gerekiyor.
+2025-06-03 21:51:21,988 - bot.travian_client - INFO - travian_client.get_nearby_village_info:1040 - Simülasyon: 3 adet yakındaki köy/vaha bilgisi oluşturuldu.
+2025-06-03 21:51:21,988 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'ye sunulacak 3 köy/vaha bilgisi ve 0 tip asker bilgisi mevcut.
+2025-06-03 21:51:21,991 - bot.ai_farm_list_manager - INFO - ai_farm_list_manager.log_message:43 - YZ'ye yağma hedefi istemi gönderiliyor...
+2025-06-03 21:51:38,042 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'den yeni yağma listesi önerileri alınması planlanıyor...
+2025-06-03 21:51:38,065 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ için 'evillord Köyü' köyü etrafındaki bilgiler çekilecek.
+2025-06-03 21:51:38,070 - bot.travian_client - WARNING - travian_client.get_nearby_village_info:1003 - `get_nearby_village_info` köy 34808 (yarıçap: 7) için SİMÜLE EDİLMİŞ veri döndürüyor. Gerçek implementasyon gerekiyor.
+2025-06-03 21:51:38,070 - bot.travian_client - INFO - travian_client.get_nearby_village_info:1040 - Simülasyon: 5 adet yakındaki köy/vaha bilgisi oluşturuldu.
+2025-06-03 21:51:38,070 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'ye sunulacak 5 köy/vaha bilgisi ve 0 tip asker bilgisi mevcut.
+2025-06-03 21:51:38,074 - bot.ai_farm_list_manager - INFO - ai_farm_list_manager.log_message:43 - YZ'ye yağma hedefi istemi gönderiliyor...
+2025-06-03 21:51:50,229 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'den yeni yağma listesi önerileri alınması planlanıyor...
+2025-06-03 21:51:50,240 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ için 'evillord Köyü' köyü etrafındaki bilgiler çekilecek.
+2025-06-03 21:51:50,258 - bot.travian_client - WARNING - travian_client.get_nearby_village_info:1003 - `get_nearby_village_info` köy 34808 (yarıçap: 7) için SİMÜLE EDİLMİŞ veri döndürüyor. Gerçek implementasyon gerekiyor.
+2025-06-03 21:51:50,258 - bot.travian_client - INFO - travian_client.get_nearby_village_info:1040 - Simülasyon: 3 adet yakındaki köy/vaha bilgisi oluşturuldu.
+2025-06-03 21:51:50,258 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'ye sunulacak 3 köy/vaha bilgisi ve 0 tip asker bilgisi mevcut.
+2025-06-03 21:51:50,272 - bot.ai_farm_list_manager - INFO - ai_farm_list_manager.log_message:43 - YZ'ye yağma hedefi istemi gönderiliyor...
+2025-06-03 21:52:54,810 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'den yeni yağma listesi önerileri alınması planlanıyor...
+2025-06-03 21:52:54,823 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ için 'evillord Köyü' köyü etrafındaki bilgiler çekilecek.
+2025-06-03 21:52:54,828 - bot.travian_client - WARNING - travian_client.get_nearby_village_info:1003 - `get_nearby_village_info` köy 34808 (yarıçap: 7) için SİMÜLE EDİLMİŞ veri döndürüyor. Gerçek implementasyon gerekiyor.
+2025-06-03 21:52:54,828 - bot.travian_client - INFO - travian_client.get_nearby_village_info:1040 - Simülasyon: 8 adet yakındaki köy/vaha bilgisi oluşturuldu.
+2025-06-03 21:52:54,829 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'ye sunulacak 8 köy/vaha bilgisi ve 0 tip asker bilgisi mevcut.
+2025-06-03 21:52:54,834 - bot.ai_farm_list_manager - INFO - ai_farm_list_manager.log_message:43 - YZ'ye yağma hedefi istemi gönderiliyor...
+2025-06-03 21:53:15,849 - bot.bot_engine - INFO - bot_engine.log_message:70 - Bot motoru durdurulma isteği alındı...
+2025-06-03 21:53:17,162 - config.gemini_config - INFO - gemini_config.load_gemini_api_key:15 - Gemini API Anahtarı başarıyla yüklendi.
+2025-06-03 21:53:17,162 - bot.bot_engine - INFO - bot_engine.log_message:70 - Bot motoru çalıştırılıyor...
+2025-06-03 21:53:17,183 - bot.travian_client - INFO - travian_client.login:79 - Zaten aktif bir oturum var. Önce kapatılıyor...
+2025-06-03 21:53:17,183 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 21:53:17,184 - bot.travian_client - WARNING - travian_client.close:223 - Sayfa kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:53:17,185 - bot.travian_client - WARNING - travian_client.close:226 - Tarayıcı context'i kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:53:17,185 - bot.travian_client - WARNING - travian_client.close:229 - Tarayıcı kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:53:17,185 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x128360ef0>
+2025-06-03 21:53:17,185 - bot.travian_client - WARNING - travian_client.close:235 - Playwright context'i durdurulurken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:53:17,185 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 21:53:17,185 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 21:53:17,398 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x12847b8f0>
+2025-06-03 21:53:18,617 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 21:53:20,259 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 21:53:20,691 - bot.travian_client - INFO - travian_client.login:127 - Giriş butonuna tıklanıyor...
+2025-06-03 21:53:21,292 - bot.travian_client - INFO - travian_client.login:147 - Giriş sonrası yönlendirme bekleniyor (dorf1.php)...
+2025-06-03 21:53:22,071 - bot.travian_client - INFO - travian_client.login:150 - Giriş başarılı.
+2025-06-03 21:53:22,071 - bot.travian_client - WARNING - travian_client._update_current_village_id_after_login:181 - Sayfa yok veya aktif oturum yok, köy ID'si güncellenemiyor.
+2025-06-03 21:53:22,071 - bot.bot_engine - INFO - bot_engine.log_message:70 - TravianClient başarıyla oturum açtı. İlk durum güncellemesi yapılıyor...
+2025-06-03 21:53:22,081 - bot.bot_engine - INFO - bot_engine.log_message:70 - Oyun durumu güncelleniyor...
+2025-06-03 21:53:22,084 - bot.bot_engine - INFO - bot_engine.log_message:70 - Köy 'evillord Köyü' (ID: 34808) için durum çekiliyor.
+2025-06-03 21:53:22,098 - bot.travian_client - INFO - travian_client.navigate_to_village:253 - Köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) adresine gidiliyor.
+2025-06-03 21:53:24,095 - bot.travian_client - WARNING - travian_client.get_village_resources:352 - JavaScript kaynak nesnesi ayrıştırılamadı (Expecting ',' delimiter: line 2 column 74 (char 75)), HTML elementlerine fallback yapılıyor.
+2025-06-03 21:53:24,145 - bot.travian_client - INFO - travian_client.get_village_resources:386 - Son kaynaklar (köy 34808): {'wood': 470, 'clay': 318, 'iron': 219, 'crop': 540, 'warehouse_capacity': 800, 'granary_capacity': 800, 'wood_prod': 590, 'clay_prod': 590, 'iron_prod': 420, 'crop_prod': 495, 'free_crop': 0, 'population': 25}
+2025-06-03 21:53:24,145 - bot.travian_client - INFO - travian_client.get_village_buildings:479 - Kaynak alanı binaları dorf1.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:53:24,145 - bot.travian_client - INFO - travian_client.navigate_to_village:257 - Zaten köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) dorf1.php sayfasındayız.
+2025-06-03 21:53:24,147 - bot.travian_client - INFO - travian_client.get_village_buildings:488 - 18 kaynak alanı elementi bulundu (Selektör: div#resourceFieldContainer a.resourceField[data-aid]).
+2025-06-03 21:53:24,327 - bot.travian_client - INFO - travian_client.get_village_buildings:541 - 18 kaynak alanı binası çekildi.
+2025-06-03 21:53:24,327 - bot.travian_client - INFO - travian_client.get_village_buildings:545 - Köy merkezi binaları dorf2.php'den (köy ID: 34808) çekiliyor...
+2025-06-03 21:53:24,958 - bot.travian_client - INFO - travian_client.get_village_buildings:552 - dorf2'de 22 potansiyel bina slotu/alanı bulundu.
+2025-06-03 21:53:25,025 - bot.travian_client - INFO - travian_client.get_village_buildings:611 - Toplam 2 köy merkezi binası çekildi. Genel toplam: 20
+2025-06-03 21:53:25,026 - bot.travian_client - INFO - travian_client.navigate_to_village:253 - Köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) adresine gidiliyor.
+2025-06-03 21:53:26,085 - bot.travian_client - INFO - travian_client.get_building_queue:637 - 0 inşaat kuyruğu öğesi bulundu (köy 34808).
+2025-06-03 21:53:26,085 - bot.travian_client - INFO - travian_client.get_building_queue:665 - İnşaat kuyruğu köy 34808 için çekildi: 0 öğe.
+2025-06-03 21:53:26,085 - bot.travian_client - INFO - travian_client.navigate_to_village:257 - Zaten köy ID 34808 (https://ts50.x5.europe.travian.com/dorf1.php?newdid=34808) dorf1.php sayfasındayız.
+2025-06-03 21:53:26,622 - bot.travian_client - INFO - travian_client.get_troops_in_village:691 - 0 potansiyel asker satırı bulundu (köy 34808).
+2025-06-03 21:53:26,623 - bot.travian_client - INFO - travian_client.get_troops_in_village:694 - Köyde 34808 asker tablosu bulunamadı veya boş.
+2025-06-03 21:53:26,623 - bot.bot_engine - INFO - bot_engine.log_message:70 - Köy 'evillord Köyü' durumu güncellendi: 20 bina, 0 kuyrukta, 0 asker.
+2025-06-03 21:53:26,633 - bot.travian_client - INFO - travian_client.get_hero_status:828 - Kahraman durumu çekiliyor (hero.php)...
+2025-06-03 21:53:27,116 - bot.travian_client - INFO - travian_client.get_hero_status:879 - Kahraman durumu: Sağlık=0%, Deneyim=0%, Durum='Bilinmiyor', Macera Mevcut=False
+2025-06-03 21:53:27,116 - bot.bot_engine - INFO - bot_engine.log_message:70 - Kahraman durumu güncellendi: Sağlık=0%, Macera=False
+2025-06-03 21:53:27,126 - bot.bot_engine - INFO - bot_engine.log_message:70 - Oyun durumu güncelleme tamamlandı.
+2025-06-03 21:53:48,685 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'den yeni yağma listesi önerileri alınması planlanıyor...
+2025-06-03 21:53:48,694 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ için 'evillord Köyü' köyü etrafındaki bilgiler çekilecek.
+2025-06-03 21:53:48,697 - bot.travian_client - WARNING - travian_client.get_nearby_village_info:1003 - `get_nearby_village_info` köy 34808 (yarıçap: 7) için SİMÜLE EDİLMİŞ veri döndürüyor. Gerçek implementasyon gerekiyor.
+2025-06-03 21:53:48,697 - bot.travian_client - INFO - travian_client.get_nearby_village_info:1040 - Simülasyon: 3 adet yakındaki köy/vaha bilgisi oluşturuldu.
+2025-06-03 21:53:48,697 - bot.bot_engine - INFO - bot_engine.log_message:70 - YZ'ye sunulacak 3 köy/vaha bilgisi ve 0 tip asker bilgisi mevcut.
+2025-06-03 21:53:48,701 - bot.ai_farm_list_manager - INFO - ai_farm_list_manager.log_message:43 - YZ'ye yağma hedefi istemi gönderiliyor...
+2025-06-03 21:54:27,862 - bot.bot_engine - INFO - bot_engine.log_message:70 - Bot motoru durdurulma isteği alındı...
+2025-06-03 21:54:27,871 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 21:54:27,876 - bot.travian_client - WARNING - travian_client.close:223 - Sayfa kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:54:27,877 - bot.travian_client - WARNING - travian_client.close:226 - Tarayıcı context'i kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:54:27,877 - bot.travian_client - WARNING - travian_client.close:229 - Tarayıcı kapatılırken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:54:27,877 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x12847b8f0>
+2025-06-03 21:54:27,877 - bot.travian_client - WARNING - travian_client.close:235 - Playwright context'i durdurulurken hata: cannot switch to a different thread (which happens to have exited)
+2025-06-03 21:54:27,877 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 21:54:27,885 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 21:56:39,651 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 21:56:39,651 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 21:56:46,594 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 21:56:46,817 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x1284d1d60>
+2025-06-03 21:56:47,529 - bot.travian_client - INFO - travian_client.login:97 - https://ts1.travian.com.tr/ adresine gidiliyor...
+2025-06-03 21:56:54,680 - bot.travian_client - ERROR - travian_client.login:171 - Playwright ile ilgili bir giriş hatası oluştu: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://ts1.travian.com.tr/", waiting until "domcontentloaded"
+Traceback (most recent call last):
+  File "/Users/evil/Desktop/travian_bot_project/bot/travian_client.py", line 98, in login
+    self.page.goto(login_page_url, wait_until="domcontentloaded")
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/sync_api/_generated.py", line 9024, in goto
+    self._sync(
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://ts1.travian.com.tr/", waiting until "domcontentloaded"
+
+2025-06-03 21:56:54,683 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 21:56:54,773 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x1284d1d60>
+2025-06-03 21:56:54,775 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 21:56:54,775 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 21:56:55,397 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
+2025-06-03 22:00:47,572 - root - INFO - main.setup_logging:55 - Günlükleme sistemi başarıyla yapılandırıldı.
+2025-06-03 22:00:47,572 - __main__ - INFO - main.main:61 - Travian Bot Uygulaması başlatılıyor...
+2025-06-03 22:01:28,588 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 22:01:28,813 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x15b6616d0>
+2025-06-03 22:01:30,741 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 22:01:31,852 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 22:01:31,866 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 22:01:31,866 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 22:01:31,885 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x15b6616d0>
+2025-06-03 22:01:31,889 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 22:01:31,889 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 22:01:42,587 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 22:01:42,765 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x15b8eedb0>
+2025-06-03 22:01:42,895 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 22:01:44,014 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 22:01:44,029 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 22:01:44,029 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 22:01:44,048 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x15b8eedb0>
+2025-06-03 22:01:44,050 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 22:01:44,050 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 22:01:57,709 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 22:01:57,886 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x15b663860>
+2025-06-03 22:01:58,007 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 22:01:59,087 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 22:01:59,103 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 22:01:59,103 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 22:01:59,123 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x15b663860>
+2025-06-03 22:01:59,125 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 22:01:59,125 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 22:02:17,478 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 22:02:17,644 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x15b9a77d0>
+2025-06-03 22:02:17,774 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 22:02:18,787 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 22:02:18,803 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 22:02:18,804 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 22:02:18,822 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x15b9a77d0>
+2025-06-03 22:02:18,824 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 22:02:18,824 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 22:02:40,724 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 22:02:40,902 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x15b9c9f10>
+2025-06-03 22:02:41,031 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 22:02:42,066 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 22:02:42,082 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 22:02:42,082 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 22:02:42,101 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x15b9c9f10>
+2025-06-03 22:02:42,103 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 22:02:42,103 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 22:02:56,365 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 22:02:56,535 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x15b9c9d60>
+2025-06-03 22:02:56,659 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 22:02:57,775 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 22:02:57,791 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 22:02:57,791 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 22:02:57,811 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x15b9c9d60>
+2025-06-03 22:02:57,813 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 22:02:57,813 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 22:03:11,242 - bot.travian_client - INFO - travian_client.login:83 - Playwright başlatılıyor...
+2025-06-03 22:03:11,430 - bot.travian_client - INFO - travian_client.login:85 - Playwright başlatıldı: <playwright._impl._playwright.Playwright object at 0x15b9ca360>
+2025-06-03 22:03:11,551 - bot.travian_client - INFO - travian_client.login:97 - https://ts50.x5.europe.travian.com/ adresine gidiliyor...
+2025-06-03 22:03:12,571 - bot.travian_client - INFO - travian_client.login:113 - Kullanıcı adı ve şifre giriliyor...
+2025-06-03 22:03:12,587 - bot.travian_client - ERROR - travian_client.login:122 - Kullanıcı adı veya şifre giriş alanı bulunamadı.
+2025-06-03 22:03:12,587 - bot.travian_client - INFO - travian_client.close:217 - Playwright kaynakları kapatılıyor...
+2025-06-03 22:03:12,605 - bot.travian_client - INFO - travian_client.close:232 - Playwright durduruluyor: <playwright._impl._playwright.Playwright object at 0x15b9ca360>
+2025-06-03 22:03:12,608 - bot.travian_client - INFO - travian_client.close:234 - Playwright durduruldu.
+2025-06-03 22:03:12,608 - bot.travian_client - INFO - travian_client.close:238 - Playwright kaynakları temizlendi.
+2025-06-03 22:03:14,412 - __main__ - INFO - main.main:71 - Travian Bot Uygulaması kapatıldı.
